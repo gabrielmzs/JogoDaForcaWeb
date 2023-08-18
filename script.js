@@ -115,13 +115,13 @@ class JogodaForcaView {
         this.palpite.textContent = this.arrayPalpite.join('');
     }
     AtualizarForca() {
-        if (this.numeroErros == 0) this.imagem.style.backgroundImage = 'url("../img/forca.png")';
-        else if (this.numeroErros == 1) this.imagem.style.backgroundImage = 'url("../img/forca01.png")';
-        else if (this.numeroErros == 2) this.imagem.style.backgroundImage = 'url("../img/forca02.png")';
-        else if (this.numeroErros == 3) this.imagem.style.backgroundImage = 'url("../img/forca03.png")';
-        else if (this.numeroErros == 4) this.imagem.style.backgroundImage = 'url("../img/forca04.png")';
-        else if (this.numeroErros == 5) this.imagem.style.backgroundImage = 'url("../img/forca05.png")';
-        else if (this.numeroErros == 6) this.imagem.style.backgroundImage = 'url("../img/forca06.png")';
+        if (this.numeroErros == 0) this.imagem.style.backgroundImage = 'url("img/forca.png")';
+        else if (this.numeroErros == 1) this.imagem.style.backgroundImage = 'url("img/forca01.png")';
+        else if (this.numeroErros == 2) this.imagem.style.backgroundImage = 'url("img/forca02.png")';
+        else if (this.numeroErros == 3) this.imagem.style.backgroundImage = 'url("img/forca03.png")';
+        else if (this.numeroErros == 4) this.imagem.style.backgroundImage = 'url("img/forca04.png")';
+        else if (this.numeroErros == 5) this.imagem.style.backgroundImage = 'url("img/forca05.png")';
+        else if (this.numeroErros == 6) this.imagem.style.backgroundImage = 'url("img/forca06.png")';
     }
 
     VerificarVitoria() {
